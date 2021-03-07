@@ -1,4 +1,4 @@
-package com.learning.spring.boot;
+package com.learning.spring.boot.Model;
 
 import lombok.Data;
 

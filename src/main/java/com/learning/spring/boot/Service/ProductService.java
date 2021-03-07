@@ -1,5 +1,7 @@
-package com.learning.spring.boot;
+package com.learning.spring.boot.Service;
 
+import com.learning.spring.boot.Model.Product;
+import com.learning.spring.boot.Repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

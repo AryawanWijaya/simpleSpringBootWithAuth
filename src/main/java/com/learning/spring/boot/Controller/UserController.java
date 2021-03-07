@@ -1,11 +1,13 @@
-package com.learning.spring.boot;
+package com.learning.spring.boot.Controller;
 
+import com.learning.spring.boot.Model.User;
+import com.learning.spring.boot.Service.ProductService;
+import com.learning.spring.boot.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 

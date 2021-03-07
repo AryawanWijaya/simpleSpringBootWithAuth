@@ -1,5 +1,6 @@
 package com.learning.spring.boot;
 
+import com.learning.spring.boot.Service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

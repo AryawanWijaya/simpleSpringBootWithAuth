@@ -1,5 +1,8 @@
-package com.learning.spring.boot;
+package com.learning.spring.boot.Service;
 
+import com.learning.spring.boot.CustomUserDetails;
+import com.learning.spring.boot.Model.User;
+import com.learning.spring.boot.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
